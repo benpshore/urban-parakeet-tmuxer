@@ -7,4 +7,7 @@ starting point: one window that attaches iff no existing session named “gh” 
 ```sh
 tmux new-session -A -s main -n gh -c "$HOME/code/GitHub"
 ```
-
+add a new window 
+```sh
+tmux new-window -n <name of tmux window> -c </path for tmux to mount to>
+```
